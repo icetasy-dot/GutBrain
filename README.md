@@ -33,6 +33,9 @@ In addition, I have had the privilege of getting married and raising twins who a
 
 And to finish introducing myself, I loved the course on the terminal that reminded me my childhood with floppy disks 5.25   
 
+Researchgate : https://www.researchgate.net/profile/Sylvain_Iceta
+Slack : Sylvain Iceta
+Email : sylvain.iceta.1@ulaval.ca
 
 
 ## Project definition 
