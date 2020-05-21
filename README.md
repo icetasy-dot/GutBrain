@@ -64,6 +64,12 @@ This relevant study combines bariatric, neuroimaging, neurocognitive and metabol
 
 1) O’Rahilly Diabetes 2008; 2) Zhang Neuroimage 2018; 3) Gloy BMJ 2013; 4) Alosco Am J Surg 2014; 5) Tang Psychol Sci 2014 
 
+<p align="center">
+<img src="Diapositive2.png" =250*250> <img src="Diapositive3.png" =250*250>
+</p>
+
+
+
 ### Special Focus for the Brain Hack School
 
 PreProcessing and Resting State Analysis
