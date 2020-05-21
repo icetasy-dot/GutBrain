@@ -1,6 +1,6 @@
 
 # Functional connectivity and bariatric surgery
-Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andreanne Michaud
+Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andreanne Michaud & Pr André Tchernoff
 
 <p align="center">
 <img src="sleeve.gif" =250*250> <img src="resting.png" =250*250>
@@ -8,7 +8,32 @@ Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andrean
 
 ## Summary 
 
-Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BrainHack School (BHS) [website](https://school.brainhackmtl.org/project). Note that the project summary also involves a number of key words. Those are listed on top of the [GitHub repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
+...
+
+## To be or not be ?
+
+Difficult to know who we really are, right ?
+
+With a question like that you would have guessed I'm either a socratic philosopher or a freaking psy...
+
+So let’s go for a kind of psychiatrist, neuroscientist and a little bit nutritionist...
+
+I got my M.D. in psychiatry in 2013. Since 2013, I worked as a senior psychiatrist at Lyon University Hospital. I took part in the creation (and then in the management...) of a Tertiary Referral Centre for Eating Disorders. I also worked at the Integrative Center for Obesity as referal psychiatrist, especially for the assessment before bariatric surgery. I completed my  doctoral studies in neurosciences in parallel of my clinical hospital activity. I 
+
+During my PhD, I studied the markers of vulnerability to food disinhibition in obesity. My work led me to develop a comprehensive model of food intake control. My thesis work has demonstrated the importance of considering the addiction transfer from a product (i.e. tobacco) to food (manuscript in preparation). Using artificial intelligence and machine-learning , I also proposed an ultra-fast screening test for food addiction (Iceta S et al., Eating and Weight Disorder, 2020, under review). Another part of my PhD work was about the measurement of event-related potential (EEG cognitive function reflect) in obese participants with or without food disinhibition. This study demonstrated a potential neurobiological overlap between addictions and food disinhibition (Iceta S et al. Int J Obes, 2019). I have also shown that ghrelin may play an important role in this food disinhibition (Iceta S et al., 2019, Diabetes Metab).
+
+My PhD studies in neuroscience and my professional experience as a psychiatrist specialized in obesity and eating disorders had me work alongside many patients suffering from severe obesity and binge eating disorder. This led me to better understand why some people are more vulnerable than others to an obesogenic environment and are at higher risk of developing obesity. Since 2015, I am conducting pre- and post-bariatric surgery clinical assessment. This expertise confronts me to the “honeymoon” phenomenon. After bariatric surgery, we clinically observe a major improvement of eating behavior, at least during the first year which correlates with dynamic weight loss. Interestingly, we observe a trend for a behavioral turn back coincident with body weight stabilization or weight regain after this period. I am convinced that solutions to manage and prevent obesity and eating disorders will emerge from better understanding of the mechanisms underlying this “honeymoon” period. For these reasons, I chose to focus my future research on neurobehavioral factors of food intake and appetite control as well as their interaction with endocrine and gut signals, as critical determinants of appetite regulation, disordered eating and excessive weight gain.
+
+
+After graduating from my PhD in January 2019 I decided to move on a postdoctoral fellow... in nutrition....
+
+ My postdoctoral is focusing in neuroimaging and neuroendocrine aspects of food intake. It started in septembre 2019 and i should stay in Quebec until septembre 2021 (maybe more...). I have chosen to pursue my postdoctoral studies under the supervision of Pr Andreanne Michaud and the co-supervision of Pr Andre Tchernof at the Quebec Heart and Lung Institute—Laval University. The Quebec Heart and Lung Institute represents one of the best places to improve my training in bariatric surgery. Indeed, the bariatric surgery team is one of the most important in the world, with their pioneering work leading to new surgical approaches. They operate more than 650 patients per year and have been able to maintain high follow-up rates for up to 20 years.
+
+In addition, I have had the privilege of getting married and raising twins who are now almost 6 years old… To relaxe I love scubadiving, especially scuba diving below 100 feet, I love the peacefulness you can find there.
+
+And to finish introducing myself, I loved the course on the terminal that reminded me my childhood with floppy disks 5.25   
+
+
 
 ## Project definition 
 
