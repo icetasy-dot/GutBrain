@@ -8,7 +8,9 @@ Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andrean
 
 ## Summary 
 
-...
+Aim : To explore resting state changes after weight loss due to bariatric surgery
+Skills to build : BIDS / fMRI Pre Processing / Resting State Analysis
+
 
 ## To be or not be ?
 
