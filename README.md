@@ -3,7 +3,7 @@
 Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andreanne Michaud
 
 <p align="center">
-<img src="http://s.4cdn.org/image/title/105.gif">
+<img src="sleeve.gif" =250*250> <img src="resting.png" =250*250>
 </p>
 
 ## Summary 
