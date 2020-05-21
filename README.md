@@ -74,7 +74,9 @@ This relevant study combines bariatric, neuroimaging, neurocognitive and metabol
 
 ### Special Focus for the Brain Hack School
 
-PreProcessing and Resting State Analysis
+```diff
+-! PreProcessing and Resting State Analysis !-
+```
 
 ### Tools 
 
