@@ -108,4 +108,7 @@ I'll start first on 10 raw scan and then do it on all my participants!
 
 ## Conclusion and acknowledgement
 
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+
+<p align="center">
+<img src="psy.gif"</p>
+
