@@ -2,7 +2,7 @@
 # Functional connectivity and bariatric surgery
 Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andreanne Michaud
 
-![Sleeve gastrectomy](sleeve.gif)
+![Sleeve gastrectomy](sleeve.gif) ![Resting](resting.png)
 
 
 ## Summary 
