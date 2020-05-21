@@ -3,7 +3,7 @@
 Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andreanne Michaud
 
 <p align="center">
-![Sleeve gastrectomy](sleeve.gif)
+<img src="http://s.4cdn.org/image/title/105.gif">
 </p>
 
 ## Summary 
