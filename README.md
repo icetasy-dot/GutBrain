@@ -44,7 +44,29 @@ Email : sylvain.iceta.1@ulaval.ca
 
 ### Background
 
-Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from a multidisciplinary background to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, we needed some standard template and milestones to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template.
+Obesity is a neurobehavioral disorder resulting from a vulnerable brain exposed to an obesogenic environment1. Structural and functional brain alterations induced by obesity may explain the link between obesity and cognitive dysfunction2. Whether these changes can be reversed after weight loss is unclear. Bariatric surgery represents the most effective treatment for severe obesity, leading to sustained weight loss and long-term metabolic recovery3. Besides these well-known metabolic recoveries, recent studies have shown improvement in cognitive functions and food preferences4. However, the impact of bariatric surgery on brain structure and function has been scarcely addressed and most studies were performed in Roux-en-Y gastric bypass (RYGB). It is essential to better understand the impact of weight loss and metabolic improvements on brain function, cognitive functions and eating behaviors, especially in long-term.
+
+The overall objective is to better characterize brain function, appetite behaviors and cognitive function prior to as 4, 12 and 24 months after bariatric surgery. We will test the hypothesis that: i) bariatric surgery induces functional and structural changes in brain regions involved in cognitive control and dietary decisions, which improve feeding behaviors and cognitive performance; ii) these changes are associated with improvement in metabolic alterations and inflammation after surgery.
+
+To perform this project, we currently recruit participants with severe obesity scheduled to undergo bariatric surgery (30 participants with Sleeve Gastrectomy (SG), 30 with RYGB, 30 biliopancreatic diversion with duodenal switch and 30 obese controls). 94 participants have been recruited so far. Participants undergo 4 MRI sessions (before as well as 4, 12 and 24 months after surgery). 
+
+The MRI protocol includes: 
+
+1) anatomical T1-weighted scan to measure grey and white matter density using voxel-based morphometry; 
+
+2) resting-state fMRI to measure functional brain connectivity; 
+
+3) fMRI during the Becker-Degroot-Marshak food auction task5. During this task, participants are instructed to bid money on high or low calorie food items. This task assesses the subjective value of food. A general linear model will be applied to model the BOLD responses to high versus low-calorie food cues. 
+
+Fasting blood samples is collected to measure plasma glucose, insulin, lipid profile, lipopolysaccharide binding protein (LPB), interleukin (IL)-6 and C-reactive protein levels. At each visit, participants fill out validated questionnaires to assess eating behaviors and personality traits. Inhibitory control is measured using the Stop Signal Reaction Time Task and Delay Discounting task.
+
+This relevant study combines bariatric, neuroimaging, neurocognitive and metabolic research in a novel approach to understand the effect of weight loss and metabolic changes on brain function, appetite behaviors and cognitive functions. Showing a reversal of neurological dysfunction associated with obesity will have very strong implications for clinical practice.
+
+1) O’Rahilly Diabetes 2008; 2) Zhang Neuroimage 2018; 3) Gloy BMJ 2013; 4) Alosco Am J Surg 2014; 5) Tang Psychol Sci 2014 
+
+### Special Focus for the Brain Hack School
+
+PreProcessing and Resting State Analysis
 
 ### Tools 
 
