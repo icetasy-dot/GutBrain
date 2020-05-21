@@ -31,7 +31,7 @@ After graduating from my PhD in January 2019 I decided to move on a postdoctoral
 
  My postdoctoral is focusing in neuroimaging and neuroendocrine aspects of food intake. It started in septembre 2019 and i should stay in Quebec until septembre 2021 (maybe more...). I have chosen to pursue my postdoctoral studies under the supervision of Pr Andreanne Michaud and the co-supervision of Pr Andre Tchernof at the Quebec Heart and Lung Institute—Laval University. The Quebec Heart and Lung Institute represents one of the best places to improve my training in bariatric surgery. Indeed, the bariatric surgery team is one of the most important in the world, with their pioneering work leading to new surgical approaches. They operate more than 650 patients per year and have been able to maintain high follow-up rates for up to 20 years.
 
-In addition, I have had the privilege of getting married and raising twins who are now almost 6 years old… To relaxe I love scubadiving, especially scuba diving below 100 feet, I love the peacefulness you can find there.
+In addition, I have had the privilege of getting married and being raised by my twins girls who are now almost 6 years old… To relaxe I love scubadiving, especially scuba diving below 100 feet, I love the peacefulness you can find there.
 
 And to finish introducing myself, I loved the course on the terminal that reminded me my childhood with floppy disks 5.25   
 <p align="center"> <img src="floppy.jpg" width="150"></p>
