@@ -34,6 +34,7 @@ After graduating from my PhD in January 2019 I decided to move on a postdoctoral
 In addition, I have had the privilege of getting married and raising twins who are now almost 6 years old… To relaxe I love scubadiving, especially scuba diving below 100 feet, I love the peacefulness you can find there.
 
 And to finish introducing myself, I loved the course on the terminal that reminded me my childhood with floppy disks 5.25   
+<p align="center"> <img src="floppy.jpg" width="150"></p>
 
 Researchgate : https://www.researchgate.net/profile/Sylvain_Iceta
 
