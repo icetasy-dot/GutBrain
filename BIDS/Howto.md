@@ -27,4 +27,8 @@ Install Bids - validator
 
 npm install -g bids-validator
 
+### Aim 3 : Dataset exploration
+
+PyBIDS
+
 
