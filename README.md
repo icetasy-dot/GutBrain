@@ -3,8 +3,9 @@
 Team contributor: Sylvain Iceta (M.D., Ph.D.) under the direction of Pre Andreanne Michaud & Pr André Tchernoff
 
 <p align="center">
-<img src="sleeve.gif" =250*250> <img src="resting.png" =250*250>
+<img src="Illustration/sleeve.gif" =250*250> <img src="Illustration/resting.png" =250*250>
 </p>
+
 
 ## Summary 
 
@@ -34,7 +35,7 @@ After graduating from my PhD in January 2019 I decided to move on a postdoctoral
 In addition, I have had the privilege of getting married and being raised by my twins girls who are now almost 6 years old… To relaxe I love scubadiving, especially scuba diving below 100 feet, I love the peacefulness you can find there.
 
 And to finish introducing myself, I loved the course on the terminal that reminded me my childhood with floppy disks 5.25   
-<p align="center"> <img src="floppy.jpg" width="150"></p>
+<p align="center"> <img src="Illustration/floppy.jpg" width="150"></p>
 
 Researchgate : https://www.researchgate.net/profile/Sylvain_Iceta
 
@@ -68,7 +69,7 @@ This relevant study combines bariatric, neuroimaging, neurocognitive and metabol
 1) O’Rahilly Diabetes 2008; 2) Zhang Neuroimage 2018; 3) Gloy BMJ 2013; 4) Alosco Am J Surg 2014; 5) Tang Psychol Sci 2014 
 
 <p align="center">
-<img src="Diapositive2.png" =250*250> <img src="Diapositive3.png" =250*250>
+<img src="Illustration/Diapositive2.png" =250*250> <img src="Illustration/Diapositive3.png" =250*250>
 </p>
 
 
@@ -115,5 +116,5 @@ I'll start first on 10 raw scan and then do it on all my participants!
 
 
 <p align="center">
-<img src="psy.gif"</p>
+<img src="Illustration/psy.gif"</p>
 
