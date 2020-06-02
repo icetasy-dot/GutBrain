@@ -1,7 +1,7 @@
 # Preprocessing your scans with fMRIprep and Compute Canada
 
 <p align="center">
-<img src="Illustration/sleeve.gif" =250*250> <img src="Illustration/resting.png" =250*250>
+<img src="Illustration/fmri prep.png" =250*250> <img src="Illustration/resting.png" =250*250>
 </p>
 
 Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
