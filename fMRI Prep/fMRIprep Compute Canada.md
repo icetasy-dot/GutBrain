@@ -15,8 +15,8 @@
 
 The wiki is very full of usefull tips : [Compute Canada Wiki](https://docs.computecanada.ca/wiki/Compute_Canada_Documentation).
 
-You can (and should) also watch the Brain Hack School 2020 lecture : [High Performance Computing](https://www.youtube.com/embed/J9VCHe1ovBg).
-
+You can (and should) also watch the Brain Hack School 2020 lecture : 
+<br>
 <p align="center">
 <a href="https://youtu.be/J9VCHe1ovBg"><img src="https://img.youtube.com/vi/J9VCHe1ovBg/0.jpg" width="50%"></a>
 </p>
@@ -81,9 +81,12 @@ And then recovering the version will be as easy as : `pip install -r requirement
 
 Please find all informations needed on [Docker web site](https://docs.docker.com/get-docker/).
 
-You can (and should) also watch the Brain Hack School 2020 lecture to learn more about docker : [A journey through virtualization](https://www.youtube.com/embed/7BJqzpE76g0). 
-<p align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/7BJqzpE76g0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
+You can (and should) also watch the Brain Hack School 2020 lecture to learn more about docker :
+<br>
+<p align="center">
+<a href="https://www.youtube.com/7BJqzpE76g0"><img src="https://img.youtube.com/vi/7BJqzpE76g0/0.jpg" width="50%"></a>
+</p>
+<br>
 
 ### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
@@ -97,6 +100,7 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 <p align="right"> <b>Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra</b> </p> 
 <br>
 <br>
+
 ### Step 1 _ Don't forget to load singularity on your directory 
 
 `module load singularity`
