@@ -91,8 +91,7 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 “Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”
 <br>
 <br>
-<br>
-<p align="right">― **Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra**</p> 
+<p align="right"> <b>Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra</b> </p> 
 <br>
 <br>
 ### Step 1 _ Don't forget to load singularity on your directory 
