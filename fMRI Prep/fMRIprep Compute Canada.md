@@ -82,17 +82,13 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 
 ### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
-
+<br>
 <img img align="left" src="/Illustration/singularity.jpg" width="20%" height="20%"> 
-
 <br>
 “Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”
 <br>
-
+<br>
 <p align="right">― **Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra**</p> 
-
-
-<p align="left"><img src="/Illustration/warning.jpg" width="10%" height="10%">
 
 ### Step 1 _ Don't forget to load singularity on your directory 
 
@@ -167,9 +163,10 @@ In our example :
 
 ### Now you can launch fMRIprep
 
-IMAGE WARNING But using a SBATCH file! 
-
-IMAGE WARNING Don't only Copy Paste, bellow syntax is only an generic one, you have to think about the argument to use !!! More information [here](https://fmriprep.readthedocs.io/en/stable/usage.html).
+<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> But using a SBATCH file! 
+<br>
+<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%">
+ Don't only Copy Paste, bellow syntax is only an generic one, you have to think about the argument to use !!! More information [here](https://fmriprep.readthedocs.io/en/stable/usage.html).
 
 	#!/bin/bash
 	#SBATCH --time=30:00:00
