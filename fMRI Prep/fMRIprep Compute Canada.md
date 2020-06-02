@@ -1,7 +1,7 @@
 # Preprocessing your scans with fMRIprep and Compute Canada
 
 <p align="center">
-<img src="Illustration/fmri prep.png" =250*250> <img src="Illustration/resting.png" =250*250>
+<img src="Illustration/fmri prep.png" =250*250> <img src="Illustration/ComputeCanada_logo_0.gif" =250*250>
 </p>
 
 Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
@@ -40,7 +40,7 @@ Normaly MRI data will be soon available in BIDS format on CC (thanks to the Brai
 
 ### If you want to upload your own data :
 
-#### Make shure to have prepare your destination folder on CC (at projects space if possible) , using `mkdir` to create your folder may be easier! 
+Make shure to have prepare your destination folder on CC (at projects space if possible) , using `mkdir` to create your folder may be easier! 
 
 Example for me : 
 
@@ -64,7 +64,7 @@ In ny case :
 
 If you want to run fMRIprep using python please go [here](#fmri_python).
 
-IMage Warning Don'forget to record your package version using and keep preciously this file! 
+<img src="Illustration/warning.jpg" =50*50> Don'forget to record your package version using and keep preciously this file! 
 
 Command line :
 `pip freeze > requirements.txt`
@@ -79,9 +79,15 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 <p align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/7BJqzpE76g0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
-### Refer to fMRI prep website for singularity installation
+### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
-[IMAGE A INSERER](https://fmriprep.readthedocs.io/en/stable/installation.html)
+<p align="center">
+<img src="Illustration/singularity.jpg" =150*150></p> 
+
+<p align="center">“Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”</p>
+
+<p align="right">― **Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra**</p> 
+
 
 
 ### Step 1 _ Don't forget to load singularity on your directory 
