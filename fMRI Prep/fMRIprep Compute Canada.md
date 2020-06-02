@@ -1,7 +1,7 @@
 # Preprocessing your scans with fMRIprep and Compute Canada
 
 <p align="center">
-<img src="https://github.com/icetasy-dot/GutBrain/blob/master/Illustration/fmri%20prep.png"=50*50> <img src="Illustration/ComputeCanada_logo_0.gif" =250*250>
+<img src="Illustration/fmri%20prep.png" width="50%" height="50%"> <img src="Illustration/ComputeCanada_logo_0.gif" width="100">
 </p>
 
 Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
