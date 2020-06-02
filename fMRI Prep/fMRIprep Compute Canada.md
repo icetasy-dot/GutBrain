@@ -29,7 +29,7 @@ Command line :
 `ssh username@beluga.computecanada.ca`
 
 Example : 
-My username is `icetasy` , so the commande line for me is : `ssh icetasy@beluga.computecanada.ca`
+My username is `icetasy` , so the command line for me is : `ssh icetasy@beluga.computecanada.ca`
 
 You'll need your password then! 
 
@@ -44,7 +44,7 @@ Normaly MRI data will be soon available in BIDS format on CC (thanks to the Brai
 
 ### If you want to upload your own data :
 
-Make shure to have prepare your destination folder on CC (at projects space if possible) , using `mkdir` to create your folder may be easier! 
+Make sure to have prepared your destination folder on CC (at project space if possible) , using `mkdir` to create your folder may be easier! 
 
 Example for me : 
 
@@ -57,7 +57,7 @@ Don't forget to exit compute canada server and work on your local terminal using
 Command line : 
 `scp -r [/local/path/] [user@host]:[/remote/path]`
 
-`-r` is for recurcise cand be omit when just one file 
+`-r` is for recurcise and can be omitted when just one file 
 
 In ny case : 
 
@@ -79,7 +79,7 @@ And then recovering the version will be as easy as : `pip install -r requirement
 
 ### You need docker on your computer
 
-Please find all informations needed on [Docker web site](https://docs.docker.com/get-docker/).
+Please find all information needed on [Docker web site](https://docs.docker.com/get-docker/).
 
 You can (and should) also watch the Brain Hack School 2020 lecture to learn more about docker :
 <br>
@@ -160,7 +160,7 @@ For example :
 
 ## Launch fMRI prep with singularity 
 
-### Never so easy : Don't forget to upload your freesurfer licence !
+### Never so easy : Don't forget to upload your freesurfer license !
 
 #### You have first to register on [free surfer website](https://surfer.nmr.mgh.harvard.edu/registration.html) and you'll receive your licence by email.
 
