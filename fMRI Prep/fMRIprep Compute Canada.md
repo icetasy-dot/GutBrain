@@ -286,3 +286,4 @@ IMAGE RUNNING
 06 -01-2020
 missing : pip install sentry_sdk bids_validator
 
++
