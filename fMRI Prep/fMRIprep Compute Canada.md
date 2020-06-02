@@ -1,7 +1,7 @@
 # Preprocessing your scans with fMRIprep and Compute Canada
 
 <p align="center">
-<img src="/Illustration/fmri%20prep.png" width="50%" height="50%"> <img src="/Illustration/ComputeCanada_logo_0.gif" width="50%" height="50%">
+<img src="/Illustration/fmri%20prep.png" width="30%" height="30%"> <img src="/Illustration/ComputeCanada_logo_0.gif" width="40%" height="40%">
 </p>
 
 Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
@@ -64,7 +64,7 @@ In ny case :
 
 If you want to run fMRIprep using python please go [here](#fmri_python).
 
-<img src="Illustration/warning.jpg" =50*50> Don'forget to record your package version using and keep preciously this file! 
+<p align="left"><img src="/Illustration/warning.jpg" width="10%" height="10%"> Don'forget to record your package version using and keep preciously this file! </p>
 
 Command line :
 `pip freeze > requirements.txt`
@@ -82,7 +82,7 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 ### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
 <p align="center">
-<img src="Illustration/singularity.jpg" =150*150></p> 
+<img src="/Illustration/singularity.jpg" =150*150></p> 
 
 <p align="center">“Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”</p>
 
