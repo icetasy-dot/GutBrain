@@ -4,9 +4,10 @@
 <img src="/Illustration/fmri%20prep.png" width="30%" height="30%"> <img src="/Illustration/ComputeCanada_logo_0.gif" width="40%" height="40%">
 </p>
 
-Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
 
-Reference article : Esteban, O., Markiewicz, C.J., Blair, R.W. et al. fMRIPrep: a robust preprocessing pipeline for functional MRI. Nat Methods 16, 111–116 (2019). [https://10.1038/s41592-018-0235-4](https://www.nature.com/articles/s41592-018-0235-4)
+#### Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
+
+#### Reference article : Esteban, O., Markiewicz, C.J., Blair, R.W. et al. fMRIPrep: a robust preprocessing pipeline for functional MRI. Nat Methods 16, 111–116 (2019). [https://10.1038/s41592-018-0235-4](https://www.nature.com/articles/s41592-018-0235-4)
 
 ## How to connect to Compute Canada (CC)
 
@@ -81,14 +82,16 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 
 ### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
-<p align="center">
-<img src="/Illustration/singularity.jpg" =150*150></p> 
 
-<p align="center">“Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”</p>
+<img img align="left" src="/Illustration/singularity.jpg" width="20%" height="20%"> 
+
+“Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”
+
 
 <p align="right">― **Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra**</p> 
 
 
+<p align="left"><img src="/Illustration/warning.jpg" width="10%" height="10%">
 
 ### Step 1 _ Don't forget to load singularity on your directory 
 
