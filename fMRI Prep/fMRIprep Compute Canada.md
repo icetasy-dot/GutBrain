@@ -16,7 +16,10 @@
 The wiki is very full of usefull tips : [Compute Canada Wiki](https://docs.computecanada.ca/wiki/Compute_Canada_Documentation).
 
 You can (and should) also watch the Brain Hack School 2020 lecture : [High Performance Computing](https://www.youtube.com/embed/J9VCHe1ovBg).
-<p align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/J9VCHe1ovBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<p align="center">
+<a href="https://youtu.be/J9VCHe1ovBg"><img src="https://img.youtube.com/vi/J9VCHe1ovBg/0.jpg" width="50%"></a>
+</p>
 
 ### Log into compute canada (CC)
 
