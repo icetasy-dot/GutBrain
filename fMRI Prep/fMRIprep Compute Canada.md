@@ -64,9 +64,11 @@ In ny case :
 ## Install fMRIprep using singularity (recommanded)
 
 If you want to run fMRIprep using python please go [here](#fmri_python).
-
-<p align="left"><img src="/Illustration/warning.jpg" width="10%" height="10%"> Don'forget to record your package version using and keep preciously this file! </p>
-
+<br>
+<br>
+<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> Don'forget to record your package version using and keep preciously this file! </p>
+<br>
+<br>
 Command line :
 `pip freeze > requirements.txt`
 
@@ -83,13 +85,16 @@ You can (and should) also watch the Brain Hack School 2020 lecture to learn more
 ### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
 <br>
-<img img align="left" src="/Illustration/singularity.jpg" width="20%" height="20%"> 
+<img img align="left" src="/Illustration/singularity.jpg" width="35%" height="35%"> 
+<br>
 <br>
 “Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”
 <br>
 <br>
+<br>
 <p align="right">― **Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra**</p> 
-
+<br>
+<br>
 ### Step 1 _ Don't forget to load singularity on your directory 
 
 `module load singularity`
@@ -132,7 +137,7 @@ Then you'll have to upload your .sh file on CC :
 For more information on SBATCH file : [Wiki Compute Canada](https://docs.computecanada.ca/wiki/Running_jobs/fr).
 
 #### Solution 2 :Make the singularity image on your computer and copy it on CC.
-Create the singulqrity imqge using docker :
+Create the singulqrity image using docker :
 	`docker run --privileged -t --rm -v /var/run/docker.sock:/var/run/
 	docker.sock -v /Users/sylvainiceta/singularity_fmriprep\image:/output
 	singularityware/docker2singularity poldracklab/fmriprep:latest`
@@ -164,6 +169,8 @@ In our example :
 ### Now you can launch fMRIprep
 
 <img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> But using a SBATCH file! 
+<br>
+<br>
 <br>
 <img align="left" src="/Illustration/warning.jpg" width="10%" height="10%">
  Don't only Copy Paste, bellow syntax is only an generic one, you have to think about the argument to use !!! More information [here](https://fmriprep.readthedocs.io/en/stable/usage.html).
