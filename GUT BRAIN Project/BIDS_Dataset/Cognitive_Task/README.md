@@ -3,8 +3,12 @@
 <!-- PROJECT LOGO -->
 <br>
 <p align="center">
-    <img align='left' src="illustration/psychopy.png" width="30%" height="30%"><h1 align="center">YOUR_TITLE</h1>
+    <img align='left' src="illustration/fig.jpg" width="30%" height="30%"><h1 align="center"><br>PROJECT TITLE</h1>
     <br><br><br></p>
+
+
+<img align='left' src="illustration/warning.jpg" width="15%" height="15%"><img align='right' src="illustration/warning.jpg" width="15%" height="15%"> <h1 align="center">Always keep in mind that the purpose of this file is REPROCDUCTIBILITY! </h1><h2 align="center">It is not about getting the same results with the same data BUT about any researcher being able to get the equivalent results in an equivalent population.<br> </h2>
+<br>
 
 ### Project particpants
 1. Principal Investigator : First name, Last name, Email, GitHub: @github_ID, Slack : slack_id
@@ -150,7 +154,8 @@ Please do prefer [create an issue](https://github.com/icetasy-dot/GutBrain/issue
 <!-- REFERENCES -->
 ## References
 
-<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> MUST ALSO INCLUDE REFERENCES FOR SOFT/PACKAGE/GIT...
+<img align="left" src="illustration/warning.jpg" width="10%" height="10%"> MUST ALSO INCLUDE REFERENCES FOR SOFT/PACKAGE/GIT...
+<br>
 <br>
 
 * O'Campo P, Dunn JR, editors. Rethinking social epidemiology: towards a science of change. Dordrecht: Springer; 2012. 348 p.
