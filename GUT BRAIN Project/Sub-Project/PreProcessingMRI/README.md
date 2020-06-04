@@ -1,168 +1,303 @@
+# Preprocessing your scans with fMRIprep and Compute Canada
+
+<p align="center">
+<img src="/Illustration/fmri%20prep.png" width="30%" height="30%"> <img src="/Illustration/ComputeCanada_logo_0.gif" width="40%" height="40%">
+</p>
 
 
-<!-- PROJECT LOGO -->
+#### Reference website [here](https://fmriprep.readthedocs.io/en/stable/index.html).
+
+#### Reference article : Esteban, O., Markiewicz, C.J., Blair, R.W. et al. fMRIPrep: a robust preprocessing pipeline for functional MRI. Nat Methods 16, 111–116 (2019). [https://10.1038/s41592-018-0235-4](https://www.nature.com/articles/s41592-018-0235-4)
+
+## How to connect to Compute Canada (CC)
+
+### Read and learn first !
+
+The wiki is very full of usefull tips : [Compute Canada Wiki](https://docs.computecanada.ca/wiki/Compute_Canada_Documentation).
+
+You can (and should) also watch the Brain Hack School 2020 lecture : 
 <br>
 <p align="center">
-    <img align='left' src="illustration/fig.jpg" width="30%" height="30%"><h1 align="center"><br>PROJECT TITLE</h1>
-    <br><br><br></p>
+<a href="https://youtu.be/J9VCHe1ovBg"><img src="https://img.youtube.com/vi/J9VCHe1ovBg/0.jpg" width="50%"></a>
+</p>
+
+### Log into compute canada (CC)
+
+Run the command line (we use Beluga by default in the team but you can choose any other one you want)
+
+Command line : 
+`ssh username@beluga.computecanada.ca`
+
+Example : 
+My username is `icetasy` , so the command line for me is : `ssh icetasy@beluga.computecanada.ca`
+
+You'll need your password then! 
 
 
-<img align='left' src="illustration/warning.jpg" width="15%" height="15%"><img align='right' src="illustration/warning.jpg" width="15%" height="15%"> <h1 align="center">Always keep in mind that the purpose of this file is REPROCDUCTIBILITY! </h1><h2 align="center">It is not about getting the same results with the same data BUT about any researcher being able to get the equivalent results in an equivalent population.<br> </h2>
+
+## Prepapre your dataset
+
+
+### Ask you PI for the directory and the procedure to access lab data on CC
+
+Normaly MRI data will be soon available in BIDS format on CC (thanks to the Brain Hack School)
+
+### If you want to upload your own data :
+
+Make sure to have prepared your destination folder on CC (at project space if possible) , using `mkdir` to create your folder may be easier! 
+
+Example for me : 
+
+`mkdir /home/icetasy/projects/def-amichaud/icetasy/gutbrain`
+
+#### Transfer your data using `scp` 
+
+Don't forget to exit compute canada server and work on your local terminal using scp (secure copy) : 
+
+Command line : 
+`scp -r [/local/path/] [user@host]:[/remote/path]`
+
+`-r` is for recurcise and can be omitted when just one file 
+
+In ny case : 
+
+`scp -r /Users/sylvainiceta/Documents/NouveauxScan/BIDS icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain`
+
+
+## Install fMRIprep using singularity (recommanded)
+
+If you want to run fMRIprep using python please go [here](#fmri_python).
+<br>
+<br>
+<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> Don'forget to record your package version using and keep preciously this file! </p>
+<br>
+<br>
+Command line :
+`pip freeze > requirements.txt`
+
+And then recovering the version will be as easy as : `pip install -r requirements.txt`
+
+### You need docker on your computer
+
+Please find all information needed on [Docker web site](https://docs.docker.com/get-docker/).
+
+You can (and should) also watch the Brain Hack School 2020 lecture to learn more about docker :
+<br>
+<p align="center">
+<a href="https://www.youtube.com/7BJqzpE76g0"><img src="https://img.youtube.com/vi/7BJqzpE76g0/0.jpg" width="50%"></a>
+</p>
 <br>
 
-### Project particpants
-1. Principal Investigator : First name, Last name, Email, GitHub: @github_ID, Slack : slack_id
-2. Co-investigator : *idem*
-3. Senior Supervisor : *idem*
-4. Research associate : *idem*
-5. Students implied : *idem*
+### Refer to fMRI prep [website](https://fmriprep.readthedocs.io/en/stable/installation.html) for singularity installation
 
-
-### Short description of the project
-
-   Insert your short description of the project (max 150 words).When available link the proposal or ethical accepted project.
-   
-   <p align="center"> Full description of the project is available [below](#about-the-project).
-
-   
-### Overall objective
-
-Provide a clear description of the overall objective of the project and the underlying hypothesis.
-
-### Secondary objectives
-
-Provide a clear description of the other objectives of the project and the underlying hypothesis.
-
-
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-* [About the Project](#about)
-  * [Background](#Background)
-  * [Objectives](#Objectives)
-  * [Material and Method](#Method)
-  * [Results](#Results)
-  * [Conclusion(s)](#Conclusion)
-* [Perspectives](#perspective)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Research log _ Let's GO !](#log)
-* [To Do List](#todo)
-* [Current issue](#issue)
-* [Upcoming deadlines](#deadlines)
-* [References](#References)
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project <a id="about">
-
-<p align="center">_ Full description of the project go here. When possible, it should include the differents section below _<p align="center">
-
-<p align="center">
-    <img align='left' src="illustration/background.jpg" width="80" height="80"><h4 align="left"><a id="Background"</a>Background :</h4> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui lacus, sagittis lacinia eros eu, porttitor luctus quam. Curabitur lacus magna, gravida vitae hendrerit eu, egestas et lacus. Mauris luctus tellus eget massa blandit, vitae venenatis ligula sollicitudin. Vestibulum in aliquet lorem. Pellentesque eget mattis arcu. Donec vestibulum odio lectus, in condimentum urna fermentum vitae. Nullam et magna mollis, sodales massa in, fringilla nibh. Mauris id semper nisl, sit amet finibus magna. Praesent nec ex massa. 
-    
-Aenean sit amet rhoncus diam. Pellentesque consectetur velit id nunc commodo, eget consectetur justo mollis. Sed facilisis, lectus eget imperdiet scelerisque, leo massa fermentum erat, varius elementum nibh risus id mauris. Sed pulvinar urna at lacus lacinia, at fringilla est ultricies. Suspendisse interdum imperdiet efficitur. Nullam dapibus mi libero, quis varius quam feugiat ut. Donec eu elementum ante, et tincidunt quam. Quisque est urna, venenatis vitae leo quis, semper semper elit. Curabitur sit amet vestibulum urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec imperdiet lorem. Etiam vehicula, tellus dignissim laoreet consequat, libero lorem eleifend tellus, sit amet venenatis nibh velit nec neque.
-
-<p align="center">
-    <img align='left' src="illustration/target.jpg" width="80" height="80"><h4 align="left" id="Objectives">Objectives :</h4> 
-    Donec vitae dapibus orci, vel bibendum nisl. Nam nibh enim, cursus sit amet egestas eget, elementum vel neque. Sed dapibus nisl ac metus ornare vestibulum vitae ac mi. Nullam posuere suscipit ex, non hendrerit enim. Ut eget ipsum nec urna sodales maximus in non purus. Aliquam a diam ut tortor tempor pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-
-<p align="center">
-    <img align='left' src="illustration/method.jpg" width="80" height="80"><h4 align="left" id="Method">Material and Method :</h4> 
-
-Maecenas vitae metus ex. Proin id quam cursus magna molestie eleifend. Aenean sapien mauris, bibendum quis sem non, cursus tempor mi. Cras tristique nibh eget nibh laoreet facilisis vel ac felis. Integer convallis lacus vitae felis faucibus, sit amet consequat neque luctus. Aliquam erat volutpat. Nullam pretium laoreet turpis id lobortis. Praesent turpis mi, consectetur non justo et, congue faucibus nisl. Maecenas eu eros pharetra, fringilla odio ac, maximus urna. Morbi tellus ex, varius sed pellentesque sed, congue ac leo. Phasellus tempor convallis dolor, in malesuada odio placerat id. Aenean rhoncus lacinia nisi, vitae lacinia eros pharetra quis. Fusce condimentum, justo eu lacinia mollis, diam urna sodales justo, eleifend molestie massa libero nec felis. Pellentesque laoreet, leo sed consectetur euismod, nisi quam consequat magna, vitae auctor diam ligula id enim. Nunc id ante quam.
-
-Nam quis mollis nibh. Fusce mauris elit, posuere et pharetra at, euismod sit amet arcu. Suspendisse sed hendrerit ligula, nec congue augue. Sed hendrerit mattis est at maximus. Nulla faucibus convallis semper. In sed vehicula purus. Nulla vehicula velit sit amet lectus faucibus, vel commodo nisl tempor. Sed id tincidunt metus.
-
-<p align="center">
-    <img align='left' src="illustration/results.jpg" width="100" height="80"><h4 align="left" id="Results">Results :</h4> 
-    Mauris nec lectus eu eros venenatis consectetur. Cras porttitor quis eros quis tincidunt. Praesent sit amet congue leo. Aliquam condimentum ultricies diam, vitae vehicula velit rutrum facilisis. Phasellus sollicitudin molestie libero. Sed tempus, augue nec mollis varius, arcu risus aliquam nunc, ac accumsan elit erat porta dui. Proin mollis nunc in tempor viverra.    
-        <img align="right" src="illustration/figure.tiff" width="50%" height="50%"> Ut eu urna urna. Nulla bibendum dolor metus, sed dapibus dolor vulputate nec. Cras semper eleifend augue, semper blandit nunc cursus ut. In in ultricies ipsum, eget eleifend tortor. Sed feugiat sapien in odio lobortis, sed viverra ligula tincidunt. Sed ac elit felis. Donec non porta metus. Cras vel blandit mauris. Nullam magna odio, feugiat varius imperdiet eu, tempor quis neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed facilisis, enim sit amet gravida blandit, dolor urna congue lorem, sed aliquam nunc sapien rutrum lacus.
-
-Duis quis vehicula lorem. Proin at eleifend magna. Nullam elit lectus, hendrerit id elementum non, cursus finibus ipsum. Duis in dapibus dolor. Nulla rhoncus nulla ligula, et efficitur elit sodales vel. Fusce pellentesque tincidunt mauris nec tincidunt. Ut sodales a nisi et placerat. Morbi velit elit, vestibulum ac diam id, gravida congue nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam rhoncus, augue et eleifend sagittis, risus ligula tincidunt libero, et consectetur lectus quam eget nibh. Nam ultrices nec nibh a egestas. Praesent metus massa, pharetra eget dignissim eu, maximus eu sapien. Mauris ut imperdiet tellus, at tempus mi. Nunc augue magna, vestibulum sit amet risus eget, pharetra auctor leo.
-    
-<p align="center">
-    <img align='left' src="illustration/eureka.jpg" width="80" height="80"><h4 align="left" id="Conclusion">Conclusion(s) :</h4>  </p>
-   Phasellus imperdiet dui nisl, eu pharetra sapien tempor et. Phasellus quis auctor dolor, eu rutrum sem. Quisque bibendum mi erat, et laoreet nunc interdum a. Aliquam lectus neque, semper ut maximus nec, bibendum eget felis. Donec tincidunt imperdiet nunc vitae volutpat. Curabitur vel ipsum et erat sollicitudin fermentum vel ac libero. Cras pellentesque faucibus sem, quis elementum libero volutpat et.
-  
-
-
-## Perspectives :<a id="perspective">
-
-ie. Publications / Next projects / Master - PhD / Grant...
-
-  
-   <p align="center">
-   <img align="center" src="illustration/nejm.png" width="35%" height="35%"></p> 
-
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-### Prerequisites
-
-This is an example of how to list things you need to use :
-
-
-
-```sh
-pip install dcm2bids
-```
-
-### Installation
- 
-the software, version, and how to install it.
-
-
-<!-- RESEARCH LOG -->
-## Research log _ Let's GO ! <a id="log">
-
-Or any other text that can help you to follow your works
-
-<p align="center">
-   <img align="center" src="illustration/draft.jpg" width="35%" height="35%"></p> 
-
-
-
-<!-- To do list -->
-## To do list <a id="todo">
-
-- [ ] Finish cleaning the database
-- [ ] Re-do the regression analysis for the thirty-fifth time
-- [ ] Buy Beiko to my favorit post-doc
-
-
-<!-- ISSUE -->
-## Current issue <a id="issue">
-
-Please do prefer [create an issue](https://github.com/icetasy-dot/GutBrain/issues/new) or pull a request.
-
-<!-- NEXT -->
-## Upcoming deadlines <a id="deadlines">
-
-* Journal club, the YYYY/MM/DD
-
-
-
-<!-- REFERENCES -->
-## References
-
-<img align="left" src="illustration/warning.jpg" width="10%" height="10%"> MUST ALSO INCLUDE REFERENCES FOR SOFT/PACKAGE/GIT...
+<br>
+<img img align="left" src="/Illustration/singularity.jpg" width="35%" height="35%"> 
+<br>
+<br>
+“Man is something that shall be overcome. Man is a rope, tied between beast and overman — a rope over an abyss. What is great in man is that he is a bridge and not an end.”
+<br>
+<br>
+<p align="right"> <b>Friedrich Wilhelm Nietzsche, Thus Spoke Zarathustra</b> </p> 
 <br>
 <br>
 
-* O'Campo P, Dunn JR, editors. Rethinking social epidemiology: towards a science of change. Dordrecht: Springer; 2012. 348 p.
-* Schiraldi GR. Post-traumatic stress disorder sourcebook: a guide to healing, recovery, and growth [Internet]. New York: McGraw-Hill; 2000 [cited 2019 Nov 6]. 446 p. Available from: http://books.mcgraw-hill.com/getbook.php?isbn=0071393722&template=#toc DOI: 10.1036/0737302658
-* Halpen-Felsher BL, Morrell HE. Preventing and reducing tobacco use. In: Berlan ED, Bravender T, editors. Adolescent medicine today: a guide to caring for the adolescent patient [Internet]. Singapore: World Scientific Publishing Co.; 2012 [cited 2019 Nov 3]. Chapter 18. Available from: https://doi.org/10.1142/9789814324496_0018
-* Stockhausen L, Turale S. An explorative study of Australian nursing scholars and contemporary scholarship. J Nurs Scholarsh [Internet]. 2011 Mar [cited 2019 Feb 19];43(1):89-96. Available from: http://search.proquest.com/docview/858241255?accountid=12528
-* Kanneganti P, Harris JD, Brophy RH, Carey JL, Lattermann C, Flanigan DC. The effect of smoking on ligament and cartilage surgery in the knee: a systematic review. Am J Sports Med [Internet]. 2012 Dec [cited 2019 Feb 19];40(12):2872-8. Available from: http://ajs.sagepub.com/content/40/12/2872 DOI: 10.1177/0363546512458223
-* Subbarao M. Tough cases in carotid stenting [DVD]. Woodbury (CT): Cine-Med, Inc.; 2003. 1 DVD: sound, colour, 4 3/4 in.
+### Step 1 _ Don't forget to load singularity on your directory 
+
+`module load singularity`
+
+In the same time you can load fMRIprep dependancies :
+
+`module load freesurfer fsl`
+
+### Step 2 _ Preparing a Singularity image 
 
 
+#### Solution 1 :Make the singularity image on directly on CC. 
+
+*To verify :* For making it directly on CC, you have to use a SBATCH file. CC do not allow you to creat the image from your terminal.
+
+Command line :
+`singularity build /my_images/fmriprep-<version>.simg docker://poldracklab/fmriprep:<version>`
+
+In our example : 
+
+`singularity build /my_images/fmriprep-20.1.0.simg docker://poldracklab/fmriprep:20.1.0`
+
+SBATCH file example : [singularity.sh](to create)
+
+	#!/bin/bash
+	#SBATCH --time=03:00:00
+	#SBATCH --account=def-someuser
+	#SBATCH --mail-user=<email_address>
+	#SBATCH --mail-type=BEGIN
+	#SBATCH --mail-type=END
+	#SBATCH --mail-type=FAIL
+	#SBATCH --mail-type=REQUEUE
+	#SBATCH --mail-type=ALL
+	singularity build /my_images/fmriprep-20.1.0.simg docker://poldracklab/fmriprep:20.1.0
+
+
+Then you'll have to upload your .sh file on CC :
+`sbatch singularity.sh` 
+
+For more information on SBATCH file : [Wiki Compute Canada](https://docs.computecanada.ca/wiki/Running_jobs/fr).
+
+#### Solution 2 :Make the singularity image on your computer and copy it on CC.
+Create the singulqrity image using docker :
+	`docker run --privileged -t --rm -v /var/run/docker.sock:/var/run/
+	docker.sock -v /Users/sylvainiceta/singularity_fmriprep\image:/output
+	singularityware/docker2singularity poldracklab/fmriprep:latest`
+
+Then, transfer on CC your singularity image `*.simg`: 
+`scp /Users/sylvainiceta/singularity_fmriprepimage/poldracklab_fmriprep_<version>.simg icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain/fmriprep.simg`
+
+`<version>` is the ended part of the file name.
+
+For example : 
+`scp /Users/sylvainiceta/singularity_fmriprepimage/poldracklab_fmriprep_latest-2020-05-28-e4d9c75a94b2.simg icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain/fmriprep.simg`
+
+
+
+## Launch fMRI prep with singularity 
+
+### Never so easy : Don't forget to upload your freesurfer license !
+
+#### You have first to register on [free surfer website](https://surfer.nmr.mgh.harvard.edu/registration.html) and you'll receive your licence by email.
+
+#### Then you have to upload your licence file on compute canada :
+
+Commande line :
+`scp /Users/<LOCAL PATH>/freesurfer_licence.txt username@beluga.computecanada.ca:/home/< CC PATH>`
+
+In our example :
+`scp /Users/sylvainiceta/Documents/NouveauxScan/BIDS/freesurfer.txt icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain`
+
+### Now you can launch fMRIprep
+
+<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> But using a SBATCH file! 
+<br>
+<br>
+<br>
+<img align="left" src="/Illustration/warning.jpg" width="10%" height="10%">
+ Don't only Copy Paste, bellow syntax is only an generic one, you have to think about the argument to use !!! More information [here](https://fmriprep.readthedocs.io/en/stable/usage.html).
+
+	#!/bin/bash
+	#SBATCH --time=30:00:00
+	#SBATCH --account=def-someuser
+	#SBATCH --mail-user=<email_address>
+	#SBATCH --mail-type=BEGIN
+	#SBATCH --mail-type=END
+	#SBATCH --mail-type=FAIL
+	#SBATCH --mail-type=REQUEUE
+	#SBATCH --mail-type=ALL
+	singularity run --cleanenv fmriprep.simg /<PATH BIDS DATA>/BIDS /<PATH OUTPUT DATA>/Preproc participant --fs-license-file /<PATH TO LICENCE>/freesurfer_licence.txt --skip_bids_validation
+
+In our example this could be : 
+
+	#!/bin/bash
+	#SBATCH --time=30:00:00
+	#SBATCH --account=def-amichaud
+	#SBATCH --mail-user=sylvain.iceta.1@ulaval.ca
+	#SBATCH --mail-type=BEGIN
+	#SBATCH --mail-type=END
+	#SBATCH --mail-type=FAIL
+	#SBATCH --mail-type=REQUEUE
+	#SBATCH --mail-type=ALL
+	singularity run --cleanenv fmriprep.simg /home/icetasy/projects/def-amichaud/icetasy/gutbrain/BIDS /home/icetasy/projects/def-amichaud/icetasy/gutbrain/Preproc participant --fs-license-file /home/icetasy/projects/def-amichaud/icetasy/gutbrain/freesurfer.txt --skip_bids_validation
+	
+
+IMAGE RUNNING
+
+
+## <a name="fmri_python"></a>Install fMRIprep using Python
+
+### Step 1 _ Log into compute canada (CC)
+
+Run the command line (we use Beluga by default in the team but you can choose any other one you want)
+
+`ssh username@beluga.computecanada.ca`
+
+My username : icetasy , so the commande line for me is : `ssh icetasy@beluga.computecanada.ca`
+
+
+### Step 2 _ Create and enter in your virtual environnement
+
+fMRI prep is a python librairy not an software. It'is not available trhough `module load` commande.
+
+For mnore infromation : [Wiki Python](https://docs.computecanada.ca/wiki/Python)
+
+All python available python package or librairy are listed [here](https://docs.computecanada.ca/wiki/Available_Python_wheels).
+
+#### We have to create an virtual environnement for run fMRI prep
+
+`cd`
+
+`module add python/3.7`
+
+`virtualenv ~/MRI` or anyother name you want / can also use `virtualenv --no-download ~/ENV`
+
+`source ~/MRI/bin/activate` can also be localized elserwer regarding in wich directory you made previous command line.
+
+May need to uprgrade pip : `pip install --no-index --upgrade pip`
+
+`--no-index` avoid downloading version outside CC.
+
+N.B. : To deactivate virtual environnement : 
+`deactivate `
+
+### Step 3 _ Install fMRI prep (we're running the python version not the docker or singularity one)
+
+Please check first i's not already install. you can also check for all currently available wheels on the [Wiki Python Wheels](https://docs.computecanada.ca/wiki/Available_Python_wheels) or using the command line `avail_wheels`
+
+Before installing fMRI prep,load needed module :
+`module load freesurfer`
+`module load fsl`
+
+Install fMRI prep :
+
+`pip install fmriprep`
+
+Numerous bugs or missing package mays occurs, be patient and use google (sorry we decided not to use docker for right now _ working on_)
+
+### Step 4 _ Now you can launch fMRIprep *# Not check yet*
+
+IMAGE WARNING But using a SBATCH file! 
+
+IMAGE WARNING Don't only Copy Paste, bellow syntax is only an generic one, you have to think about the argument to use !!! More information [here](https://fmriprep.readthedocs.io/en/stable/usage.html).
+
+	#!/bin/bash
+	#SBATCH --time=30:00:00
+	#SBATCH --account=def-someuser
+	#SBATCH --mail-user=<email_address>
+	#SBATCH --mail-type=BEGIN
+	#SBATCH --mail-type=END
+	#SBATCH --mail-type=FAIL
+	#SBATCH --mail-type=REQUEUE
+	#SBATCH --mail-type=ALL
+	source ~/MRI/bin/activate
+	fmriprep /<PATH BIDS DATA>/BIDS /<PATH OUTPUT DATA>/Preproc participant --fs-license-file /<PATH TO LICENCE>/freesurfer_licence.txt --skip_bids_validation
+
+In our example this could be : 
+
+	#!/bin/bash
+	#SBATCH --time=30:00:00
+	#SBATCH --account=def-amichaud
+	#SBATCH --mail-user=<sylvain.iceta.1@ulaval.ca>
+	#SBATCH --mail-type=BEGIN
+	#SBATCH --mail-type=END
+	#SBATCH --mail-type=FAIL
+	#SBATCH --mail-type=REQUEUE
+	#SBATCH --mail-type=ALL
+	source ~/MRI/bin/activate
+	fmriprep /home/icetasy/projects/def-amichaud/icetasy/gutbrain/BIDS /home/icetasy/projects/def-amichaud/icetasy/gutbrain/Preproc participant --fs-license-file /home/icetasy/projects/def-amichaud/icetasy/gutbrain/freesurfer.txt --skip_bids_validation
+	
+
+IMAGE RUNNING
+
+
+`fmriprep /home/icetasy/projects/def-amichaud/icetasy/gutbrain/BIDS /home/icetasy/projects/def-amichaud/icetasy/gutbrain/Preproc participant`
+
+06 -01-2020
+missing : pip install sentry_sdk bids_validator
+
++
