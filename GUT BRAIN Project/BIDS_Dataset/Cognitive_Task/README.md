@@ -151,6 +151,7 @@ Please do prefer [create an issue](https://github.com/icetasy-dot/GutBrain/issue
 ## References
 
 <img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> MUST ALSO INCLUDE REFERENCES FOR SOFT/PACKAGE/GIT...
+<br>
 
 * O'Campo P, Dunn JR, editors. Rethinking social epidemiology: towards a science of change. Dordrecht: Springer; 2012. 348 p.
 * Schiraldi GR. Post-traumatic stress disorder sourcebook: a guide to healing, recovery, and growth [Internet]. New York: McGraw-Hill; 2000 [cited 2019 Nov 6]. 446 p. Available from: http://books.mcgraw-hill.com/getbook.php?isbn=0071393722&template=#toc DOI: 10.1036/0737302658
@@ -160,21 +161,3 @@ Please do prefer [create an issue](https://github.com/icetasy-dot/GutBrain/issue
 * Subbarao M. Tough cases in carotid stenting [DVD]. Woodbury (CT): Cine-Med, Inc.; 2003. 1 DVD: sound, colour, 4 3/4 in.
 
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
