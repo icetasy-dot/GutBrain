@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br>
 <p align="center">
-    <img align='left' src="illustration/fig.jpg" width="30%" height="30%"><h1 align="center"><br>PROJECT TITLE</h1>
+    <img align='left' src="illustration/fig.jpg" width="15%" height="15%"><h1 align="center"><br>AUTOMATION ADIPOCYTE CELL SIZING</h1>
     <br><br><br></p>
 
 
