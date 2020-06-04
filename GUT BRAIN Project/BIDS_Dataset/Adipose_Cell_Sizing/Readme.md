@@ -2,7 +2,7 @@
 
 Work in collaboration with INA to automatic extraction / machine learning alogorythm
 
-More comprehensive description of the sub_project [here](/README_project.md).
+More comprehensive description of the sub_project [here](/Adipose_Cell_Sizing/Adipocyte%20segmentation-03_13.ipynb).
 
 Jupyter Notebook first step [here](/Adipocyte segmentation-03_13.ipynb).
 
