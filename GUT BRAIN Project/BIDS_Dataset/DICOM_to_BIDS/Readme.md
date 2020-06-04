@@ -26,7 +26,7 @@ Build your configuration file with the help of the content of tmp_dcm2bids/helpe
 
 3. Progress :
 
-<p align="center"><img align='center' src="illustration/under.jpg" width="45%" height="45%"></p>
+<p align="center"><img align='center' src="Illustration/processing.gif" width="45%" height="45%"></p>
 
 ## Step 2 : Bids Validation
 
