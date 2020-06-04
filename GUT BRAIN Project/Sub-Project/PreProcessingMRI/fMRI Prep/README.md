@@ -199,11 +199,12 @@ SBATCH file example :
 	#SBATCH --mail-type=FAIL
 	#SBATCH --mail-type=REQUEUE
 	#SBATCH --mail-type=ALL
+	cd
 	module load freesurfer fsl singularity
 	singularity run --cleanenv -B <PATH TO DIRECTORY>/:/data fmriprep.simg /data/BIDS /data/Preprocessing participant --fs-license-file /data/freesurfer_licence.txt --skip_bids_validation
 
 <p align="left"><a href="/GUT BRAIN Project/Sub-Project/PreProcessingMRI/fMRI Prep/SH files/run_fmriprep.sh"><img src="/Illustration/download.png" width="25" height="25"></a>
-In our example the SBATCH file will be :</p> In our example this could be : 
+In our example the SBATCH file will be :</p> 
 
 	#!/bin/bash
 	#SBATCH --time=30:00:00
@@ -214,9 +215,12 @@ In our example the SBATCH file will be :</p> In our example this could be :
 	#SBATCH --mail-type=FAIL
 	#SBATCH --mail-type=REQUEUE
 	#SBATCH --mail-type=ALL
+	cd
 	module load freesurfer fsl singularity
 	singularity run --cleanenv fmriprep.simg /home/icetasy/projects/def-amichaud/icetasy/gutbrain/BIDS /home/icetasy/projects/def-amichaud/icetasy/gutbrain/Preproc participant --fs-license-file /home/icetasy/projects/def-amichaud/icetasy/gutbrain/freesurfer.txt --skip_bids_validation
 	
+
+<p align="center" src="/Illustration/singularity.jpg" width="35%" height="35%"> 
 
 IMAGE RUNNING
 
