@@ -1,16 +1,10 @@
 
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
-
 
 <!-- PROJECT LOGO -->
-<br />
+<br>
 <p align="center">
-    <img align='left' src="illustration/psychopy.png" width="30%" height="30%"><h3 align="center">YOUR_TITLE</h3>
-    </p>
+    <img align='left' src="illustration/psychopy.png" width="30%" height="30%"><h1 align="center">YOUR_TITLE</h1>
+    <br><br><br></p>
   
 ### Short description of the project
    Insert your short description of the project
