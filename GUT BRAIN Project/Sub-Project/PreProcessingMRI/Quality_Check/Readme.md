@@ -1,4 +1,4 @@
-<h1 align="center"> FROM REDCAP GUT BRAIN to READY FILE FOR BIDS Organisation </h1>
+<h1 align="center"> Tutorial for quality check </h1>
 
 
 
