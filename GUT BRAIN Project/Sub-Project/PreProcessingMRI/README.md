@@ -112,7 +112,25 @@ In the same time you can load fMRIprep dependancies :
 ### Step 2 _ Preparing a Singularity image 
 
 
-#### Solution 1 :Make the singularity image on directly on CC. 
+#### Solution 1 :Make the singularity image on your computer and copy it on CC
+
+Create the singulqrity image using docker :
+	`docker run --privileged -t --rm -v /var/run/docker.sock:/var/run/
+	docker.sock -v /Users/sylvainiceta/singularity_fmriprep\image:/output
+	singularityware/docker2singularity poldracklab/fmriprep:latest`
+
+Then, transfer on CC your singularity image `*.simg`: 
+`scp /Users/sylvainiceta/singularity_fmriprepimage/poldracklab_fmriprep_<version>.simg icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain/fmriprep.simg`
+
+`<version>` is the ended part of the file name.
+
+For example : 
+`scp /Users/sylvainiceta/singularity_fmriprepimage/poldracklab_fmriprep_latest-2020-05-28-e4d9c75a94b2.simg icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain/fmriprep.simg`
+
+
+#### Solution 2 :Make the singularity image on directly on CC. 
+
+<p align="center"><b>Currently not working _ waiting for CC responses </b></p>
 
 *To verify :* For making it directly on CC, you have to use a SBATCH file. CC do not allow you to creat the image from your terminal.
 
@@ -123,7 +141,7 @@ In our example :
 
 `singularity build /my_images/fmriprep-20.1.0.simg docker://poldracklab/fmriprep:20.1.0`
 
-SBATCH file example : [singularity.sh](to create)
+SBATCH file example :
 
 	#!/bin/bash
 	#SBATCH --time=03:00:00
@@ -141,21 +159,6 @@ Then you'll have to upload your .sh file on CC :
 `sbatch singularity.sh` 
 
 For more information on SBATCH file : [Wiki Compute Canada](https://docs.computecanada.ca/wiki/Running_jobs/fr).
-
-#### Solution 2 :Make the singularity image on your computer and copy it on CC.
-Create the singulqrity image using docker :
-	`docker run --privileged -t --rm -v /var/run/docker.sock:/var/run/
-	docker.sock -v /Users/sylvainiceta/singularity_fmriprep\image:/output
-	singularityware/docker2singularity poldracklab/fmriprep:latest`
-
-Then, transfer on CC your singularity image `*.simg`: 
-`scp /Users/sylvainiceta/singularity_fmriprepimage/poldracklab_fmriprep_<version>.simg icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain/fmriprep.simg`
-
-`<version>` is the ended part of the file name.
-
-For example : 
-`scp /Users/sylvainiceta/singularity_fmriprepimage/poldracklab_fmriprep_latest-2020-05-28-e4d9c75a94b2.simg icetasy@beluga.computecanada.ca:/home/icetasy/projects/def-amichaud/icetasy/gutbrain/fmriprep.simg`
-
 
 
 ## Launch fMRI prep with singularity 
