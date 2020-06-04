@@ -114,6 +114,7 @@ In the same time you can load fMRIprep dependancies :
 
 #### Solution 1 :Make the singularity image on your computer and copy it on CC
 
+
 Create the singulqrity image using docker :
 	`docker run --privileged -t --rm -v /var/run/docker.sock:/var/run/
 	docker.sock -v /Users/sylvainiceta/singularity_fmriprep\image:/output
@@ -141,7 +142,8 @@ In our example :
 
 `singularity build /my_images/fmriprep-20.1.0.simg docker://poldracklab/fmriprep:20.1.0`
 
-SBATCH file example :
+<p align="left"><a href="https://www.youtube.com/7BJqzpE76g0"><img src="/Illustration/download.png" width="25" height="25"></a>
+SBATCH file example :</p>
 
 	#!/bin/bash
 	#SBATCH --time=03:00:00
