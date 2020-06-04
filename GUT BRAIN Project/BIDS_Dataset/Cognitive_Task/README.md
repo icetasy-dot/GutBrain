@@ -9,22 +9,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img align='left' src="illustration/psychopy.png" alt="Logo" width="30%" height="30%">
-<br>
-<h3 align="center">YOUR_TITLE</h3>
-
-  <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    <img align='left' src="illustration/psychopy.png" width="30%" height="30%"><h3 align="center">YOUR_TITLE</h3>
+    </p>
+  
+### Short description of the project
+   Insert your short description of the project
+   When available link the full decription
+   
+   
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
-  </p>
+    
 </p>
 
 
