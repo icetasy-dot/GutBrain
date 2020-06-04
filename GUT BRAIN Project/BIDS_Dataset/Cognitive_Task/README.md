@@ -48,13 +48,12 @@ Provide a clear description of the other objectives of the project and the under
 * [To Do List](#todo)
 * [Current issue](#issue)
 * [Upcoming deadlines](#deadlines)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* [References](#References)
 
 
 
 <!-- ABOUT THE PROJECT -->
-## <id="about">About The Project
+## About The Project <a id="about">
 
 <p align="center">_ Full description of the project go here. When possible, it should include the differents section below _<p align="center">
 
@@ -88,7 +87,7 @@ Duis quis vehicula lorem. Proin at eleifend magna. Nullam elit lectus, hendrerit
   
 
 
-## <id="perspective">Perspectives :
+## Perspectives :<a id="perspective">
 
 ie. Publications / Next projects / Master - PhD / Grant...
 
@@ -119,7 +118,7 @@ the software, version, and how to install it.
 
 
 <!-- RESEARCH LOG -->
-## <id="log">Research log _ Let's GO ! 
+## Research log _ Let's GO ! <a id="log">
 
 Or any other text that can help you to follow your works
 
@@ -129,7 +128,7 @@ Or any other text that can help you to follow your works
 
 
 <!-- To do list -->
-## <id="todo">To do list
+## To do list <a id="todo">
 
 - [ ] Finish cleaning the database
 - [ ] Re-do the regression analysis for the thirty-fifth time
@@ -137,18 +136,18 @@ Or any other text that can help you to follow your works
 
 
 <!-- ISSUE -->
-## <id="issue">Current issue
+## Current issue <a id="issue">
 
 Please do prefer [create an issue](https://github.com/icetasy-dot/GutBrain/issues/new) or pull a request.
 
 <!-- NEXT -->
-## <id="deadlines">Upcoming deadlines
+## Upcoming deadlines <a id="deadlines">
 
 * Journal club, the YYYY/MM/DD
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- REFERENCES -->
 ## References
 
 <img align="left" src="/Illustration/warning.jpg" width="10%" height="10%"> MUST ALSO INCLUDE REFERENCES FOR SOFT/PACKAGE/GIT...
