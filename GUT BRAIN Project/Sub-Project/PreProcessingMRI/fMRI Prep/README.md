@@ -220,9 +220,10 @@ In our example the SBATCH file will be :</p>
 	singularity run --cleanenv fmriprep.simg /home/icetasy/projects/def-amichaud/icetasy/gutbrain/BIDS /home/icetasy/projects/def-amichaud/icetasy/gutbrain/Preproc participant --fs-license-file /home/icetasy/projects/def-amichaud/icetasy/gutbrain/freesurfer.txt --skip_bids_validation
 	
 
-<p align="center" src="/Illustration/singularity.jpg" width="35%" height="35%"> 
+<p align="center" h3> And let's go ! ! ! </h3></p>
+<p align="center" src="GUT BRAIN Project/Sub-Project/PreProcessingMRI/illustration/flash.gif" width="100%" height="100%"></p>
 
-IMAGE RUNNING
+
 
 
 ## <a name="fmri_python"></a>Install fMRIprep using Python
