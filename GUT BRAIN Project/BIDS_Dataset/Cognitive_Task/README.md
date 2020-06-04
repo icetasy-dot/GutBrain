@@ -5,7 +5,12 @@
 <p align="center">
     <img align='left' src="illustration/psychopy.png" width="30%" height="30%"><h1 align="center">YOUR_TITLE</h1>
     <br><br><br></p>
-  
+
+### Particpants
+1. Principal Investigator : First name, Last name, Email, GitHub: @github_ID, Slack : slack_id
+2. Co-investigator : 
+3. Senior Supervisor :
+
 ### Short description of the project
    Insert your short description of the project
    When available link the full decription
