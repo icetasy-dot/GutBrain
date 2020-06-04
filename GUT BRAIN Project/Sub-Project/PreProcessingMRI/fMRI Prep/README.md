@@ -185,9 +185,13 @@ In our example :
 <br>
 <img align="left" src="/Illustration/warning.jpg" width="10%" height="10%">
  Don't only Copy Paste, bellow syntax is only an generic one, you have to think about the argument to use !!! More information [here](https://fmriprep.readthedocs.io/en/stable/usage.html).
+<br>
+<br>
 
+SBATCH file example :
+	
 	#!/bin/bash
-	#SBATCH --time=30:00:00
+	#SBATCH --time=03:00:00
 	#SBATCH --account=def-someuser
 	#SBATCH --mail-user=<email_address>
 	#SBATCH --mail-type=BEGIN
@@ -195,9 +199,11 @@ In our example :
 	#SBATCH --mail-type=FAIL
 	#SBATCH --mail-type=REQUEUE
 	#SBATCH --mail-type=ALL
-	singularity run --cleanenv fmriprep.simg /<PATH BIDS DATA>/BIDS /<PATH OUTPUT DATA>/Preproc participant --fs-license-file /<PATH TO LICENCE>/freesurfer_licence.txt --skip_bids_validation
+	module load freesurfer fsl singularity
+	singularity run --cleanenv -B <PATH TO DIRECTORY>/:/data fmriprep.simg /data/BIDS /data/Preprocessing participant --fs-license-file /data/freesurfer_licence.txt --skip_bids_validation
 
-In our example this could be : 
+<p align="left"><a href="/GUT BRAIN Project/Sub-Project/PreProcessingMRI/fMRI Prep/SH files/run_fmriprep.sh"><img src="/Illustration/download.png" width="25" height="25"></a>
+In our example the SBATCH file will be :</p> In our example this could be : 
 
 	#!/bin/bash
 	#SBATCH --time=30:00:00
@@ -208,6 +214,7 @@ In our example this could be :
 	#SBATCH --mail-type=FAIL
 	#SBATCH --mail-type=REQUEUE
 	#SBATCH --mail-type=ALL
+	module load freesurfer fsl singularity
 	singularity run --cleanenv fmriprep.simg /home/icetasy/projects/def-amichaud/icetasy/gutbrain/BIDS /home/icetasy/projects/def-amichaud/icetasy/gutbrain/Preproc participant --fs-license-file /home/icetasy/projects/def-amichaud/icetasy/gutbrain/freesurfer.txt --skip_bids_validation
 	
 
