@@ -2,7 +2,7 @@
 
 Work in collaboration with INA to automatic extraction / machine learning alogorythm
 
-More comprehensive description of the sub_project [here](/Adipose_Cell_Sizing/Adipocyte%20segmentation-03_13.ipynb).
+More comprehensive description of the sub_project [here](https://github.com/icetasy-dot/GutBrain/blob/master/GUT%20BRAIN%20Project/BIDS_Dataset/Adipose_Cell_Sizing/Adipocyte%20segmentation-03_13.ipynb).
 
 Jupyter Notebook first step [here](/Adipocyte segmentation-03_13.ipynb).
 
