@@ -122,6 +122,10 @@ I'll start first on 10 raw scan and then do it on all my participants!
 
 As I didn't get access to the full data set I focused more on :
 
+- Convert DICOM to BID
+<p align="center">
+<a href="/GUT BRAIN Project/BIDS_Dataset/DICOM_to_BIDS/Readme.md"><img src="Illustration/go.jpg" width="30%"></a>
+
 - BIDS organisation : still pending 
 <p align="lefts"><img src="/Illustration/BIDS%20orga.png"></p>
 
@@ -129,7 +133,9 @@ As I didn't get access to the full data set I focused more on :
 
 - running fMRI prep on Compute Canada : almost done !
 
-
+<p align="center">
+<a href="/GUT BRAIN Project/Sub-Project/PreProcessingMRI/fMRI Prep/README.md"><img src="Illustration/go.jpg" width="30%"></a>
+</p>
 
 - Sub-project organisation
 
