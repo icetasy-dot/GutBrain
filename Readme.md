@@ -127,6 +127,7 @@ As I didn't get access to the full data set I focused more on :
 <a href="/GUT BRAIN Project/BIDS_Dataset/DICOM_to_BIDS/Readme.md"><img src="Illustration/go.jpg" width="30%"></a>
 <a id="back1">
 <br>
+<br>
 - BIDS organisation : still pending 
 <p align="lefts"><img src="/Illustration/BIDS%20orga.png"></p>
 
@@ -137,7 +138,7 @@ As I didn't get access to the full data set I focused more on :
 <p align="center">
 <a href="/GUT BRAIN Project/Sub-Project/PreProcessingMRI/fMRI Prep/README.md"><img src="Illustration/go.jpg" width="30%">
 </a>
-<a id="back1">
+<a id="back2">
 </p>
 
 - Sub-project organisation
