@@ -97,23 +97,47 @@ And also data visualization tools (e.g. Numpy, Matplotlib, Seaborn).
 I'll start first on 10 raw scan and then do it on all my participants!
 
 
-
-### Deliverables
-
-
 ## Results 
 
-### Progress overview
 
 ### Tools I learned during this project
 
+- My terminal is now my best friend thanks to the Brain Hack School
+
+- Git and GitHub (also for recovering a deleted branch!)
+
+- Jupyter Notebook (Python, R and Bash Kernel)
+
+- Compute Canada servers and technical support...
+
+- Docker and Singularity
+
+- dcm2niix, Dcm2Bids
+
+- bids-validator
+
+- fMRIprep
 
 ### Results 
 
-#### Deliverable 
+As I didn't get access to the full data set I focused more on :
+
+- BIDS organisation : still pending 
+
+- running fMRI prep on my local conmputer: Done
+
+- running fMRI prep on Compute Canada : almost done !
+
+- Sub-project organisation
+
+- Readme.md template
+
+- convince to apply it : almost done too !  
+
 
 ## Conclusion and acknowledgement
 
+Thanks to the all Brain Hack School team!
 
 <p align="center">
 <img src="Illustration/psy.gif"</p>
