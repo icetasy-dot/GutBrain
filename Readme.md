@@ -129,13 +129,15 @@ As I didn't get access to the full data set I focused more on :
 
 - running fMRI prep on Compute Canada : almost done !
 
+
+
 - Sub-project organisation
 
 <p align="lefts"><img src="/Illustration/subproject.png"></p>
 
 - Readme.md template
 
-- convince to apply it : almost done too !  
+- Convincing other lab members : a teaser to help ! 
 
 
 ## Conclusion and acknowledgement
