@@ -76,3 +76,7 @@ If you want to live on the bleeding edge, you can install from master:
 Dependencies
 PyBIDS has a number of dependencies. The core querying functionality requires only the BIDS-Validator package. However, most other modules require the core Python neuroimaging stack: numpy, scipy, pandas, nibabel, and patsy. The reports module additionally requires num2words. By default, all dependencies will be installed with pybids (if they aren't already available).
 
+
+<p align="center">
+<a href="Readme.md"><img src="Illustration/back.jpg" width="30%"></a>
+</p>
