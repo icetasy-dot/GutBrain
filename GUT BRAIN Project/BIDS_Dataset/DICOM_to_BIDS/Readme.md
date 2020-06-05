@@ -78,5 +78,5 @@ PyBIDS has a number of dependencies. The core querying functionality requires on
 
 
 <p align="center">
-<a href="Readme.md"><img src="Illustration/back.jpg" width="30%"></a>
+<a href="Readme.md"><img src="https://github.com/icetasy-dot/GutBrain/blob/master/Illustration/back.png" width="30%"></a>
 </p>
