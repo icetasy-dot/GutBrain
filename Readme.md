@@ -138,6 +138,9 @@ As I didn't get access to the full data set I focused more on :
 - Readme.md template
 
 - Convincing other lab members : a teaser to help ! 
+<p align="center">
+<a href="https://https://youtu.be/5-3lhKt3LsI"><img src="https://img.https://youtu.be/5-3lhKt3LsI/0.jpg" width="50%"></a>
+</p>
 
 
 ## Conclusion and acknowledgement
