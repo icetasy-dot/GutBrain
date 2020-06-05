@@ -123,13 +123,16 @@ I'll start first on 10 raw scan and then do it on all my participants!
 As I didn't get access to the full data set I focused more on :
 
 - BIDS organisation : still pending 
-<p align=
+<p align="right" img src="https://github.com/icetasy-dot/GutBrain/blob/master/Illustration/BIDS%20orga.png"></p>
 
 - running fMRI prep on my local conmputer: Done
 
 - running fMRI prep on Compute Canada : almost done !
 
 - Sub-project organisation
+
+<p align="right" img src="https://github.com/icetasy-dot/GutBrain/blob/master/Illustration/subproject.png"></p>
+
 
 - Readme.md template
 
